@@ -1,0 +1,144 @@
+.form-field{
+	position: relative;
+
+	.input-field,
+	textarea{
+		border: 0;
+		appearance: none;
+		background: transparent;
+		border-radius: 0;
+		flex: auto;
+		height: 40px;
+		font-size: 20px;
+		color: $text-color;
+		font-family: $main-font;
+		font-weight: 400;
+		padding: 0 16px;
+		outline: none !important;
+		transition: all $t;
+		width: 100%;
+		background: rgba(#ECECEC, .5);
+		// max-width: 260px;
+
+		&::placeholder{
+			color: $text-color;
+			opacity: .3;
+			transition: all $t;
+		}
+
+		&:focus{
+			// background: #fff;
+			background: #ECECEC;
+
+			&::placeholder{
+				opacity: 1;
+			}
+		}
+	}
+
+	textarea{
+		resize: none;
+		padding: 15px 15px;
+		height: 195px;
+	}
+
+	@media screen and (max-width: 991px){
+		.input-field,
+		textarea{
+			height: 95px;
+			font-size: 24px;
+		}
+
+		textarea{
+			height: 315px;
+		}
+	}
+
+	@media screen and (max-width: 767px){
+		.input-field,
+		textarea{
+			height: 60px;
+			font-size: 20px;
+		}
+
+		textarea{
+			height: 205px;
+		}
+	}
+}
+
+.form{
+	.form-row{
+		margin-bottom: 24px;
+
+		&:last-child,
+		&.last{
+			margin-bottom: 0 !important;
+			padding-top: 8px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+
+		&.columns-2{
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+			grid-gap: 32px;
+
+			&.with-phone{
+				grid-template-columns: 230px 1fr;
+				grid-gap: 13px;
+			}
+		}
+
+		@media screen and (max-width: 484px){
+			margin-bottom: 15px;
+
+			&.xs-columns-1{
+				grid-template-columns: 100%;
+				grid-gap: 15px;
+
+				&.with-phone{
+					grid-template-columns: 100%;
+				}
+			}
+		}
+	}
+
+	.form-label{
+		text-transform: uppercase;
+		font-weight: 900;
+		font-size: 24px;
+		margin-bottom: 8px;
+	}
+
+	.form-note{
+		margin-bottom: 15px;
+		font-size: 14px;
+
+		a{
+			color: $primary;
+			text-decoration: none;
+
+			&:hover{
+				color: $text-dark;
+				text-decoration: underline;
+			}
+		}
+	}
+
+	.form-caption{
+		text-align: center;
+		font-size: 36px;
+		line-height: 42px;
+		color: $text-color;
+		font-weight: bold;
+		margin-bottom: 24px;
+
+		@media screen and (max-width: 484px){
+			font-size: 24px;
+			line-height: 1.2;
+			margin-bottom: 24px;
+		}
+	}
+}

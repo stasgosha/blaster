@@ -1,0 +1,43 @@
+.buttons-nav{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	.nav-btn{
+		width: 23px;
+		height: 23px;
+		background: $body-bg;
+		text-align: center;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		color: $accent;
+		font-weight: 900;
+		font-size: 12px;
+		box-shadow: 3px 3px $primary;
+		margin-right: 24px;
+
+		&:last-child{
+			margin-right: 0;
+		}
+
+		&.current{
+			background: $accent;
+			color: #fff;
+		}
+	}
+
+	@media screen and (min-width: 485px){
+		.nav-btn{
+			width: 53px;
+			height: 53px;
+			font-size: 30px;
+			margin-right: 54px;
+			box-shadow: 7px 7px $primary;
+
+			&:last-child{
+				margin-right: 0;
+			}
+		}
+	}
+}
