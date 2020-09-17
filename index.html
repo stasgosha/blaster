@@ -728,6 +728,60 @@
 		</div>
 	</div>
 
+	<div class="modal info-modal" id="success-modal" tabindex="-1">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<button class="modal-close" aria-label="Close">
+					<svg class="btn-icon">
+						<use xlink:href="img/icons-sprite.svg#close"></use>
+					</svg>
+				</button>
+				
+				<div class="send-status-block">
+					<div class="block-icon">
+						<img src="img/icons/success.svg" alt="">
+					</div>
+					<div class="block-content">
+						<h3 class="block-caption">Заявка успешно отправлена!</h3>
+						<p>Мы обязательно свяжемся с вами.</p>
+					</div>
+					<div class="block-footer">
+						<button class="btn btn-accent js-modal-close">
+							<span class="btn-text">Хорошо</span>
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal info-modal error" id="error-modal" tabindex="-1">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<button class="modal-close" aria-label="Close">
+					<svg class="btn-icon">
+						<use xlink:href="img/icons-sprite.svg#close"></use>
+					</svg>
+				</button>
+				
+				<div class="send-status-block">
+					<div class="block-icon">
+						<img src="img/icons/error.svg" alt="">
+					</div>
+					<div class="block-content">
+						<h3 class="block-caption">Ошибка!</h3>
+						<p>Кажется вы неверно указали данные. Заполните заявку повторно.</p>
+					</div>
+					<div class="block-footer">
+						<button class="btn btn-white" data-modal="#order-modal">
+							<span class="btn-text">Заполнить заявку</span>
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 	<script src="js/slick.min.js"></script>
 	<script src="js/jquery.touchSwipe.min.js"></script>
