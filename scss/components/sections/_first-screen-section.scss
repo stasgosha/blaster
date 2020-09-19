@@ -3,7 +3,7 @@
 
 	.bullets{
 		position: absolute;
-		top: 43px;
+		top: 73px;
 		left: 50%;
 		transform: translateX(-50%);
 		margin-left: 30px;
@@ -17,7 +17,7 @@
 
 		@media screen and (max-width: 991px){
 			// width: 768px;
-			width: 100%;
+			width: 100vw;
 		}
 
 		@media screen and (max-width: 767px){
@@ -91,6 +91,13 @@
 			margin-bottom: 16px;
 			color: #fff;
 		}
+
+		.slide-content{
+			z-index: 10;
+			position: relative;
+		}
+
+		.slide-image{}
 
 		&.slide-1{
 			background: $blue;
