@@ -24,6 +24,20 @@ document.addEventListener('DOMContentLoaded', function(){
 	});
 
 
+	// For test
+	$('#order-modal form').on('submit', function(e){
+		e.preventDefault();
+
+		hideModal( $(this).closest('.modal') );
+
+		if (Math.random() >= 0.5) {
+			showModal('#success-modal');
+		} else{
+			showModal('#error-modal');
+		}
+	});
+
+
 	// const ps = new PerfectScrollbar('#container');
 
 
@@ -280,19 +294,31 @@ document.addEventListener('DOMContentLoaded', function(){
 	// }
 
 	// Swipe
-	$(".header, .mobile-top-nav").swipe({
-		swipeUp:function(event, direction, distance, duration) {
-			$('.menu-opener').removeClass('active');
-			$('.mobile-top-nav').removeClass('opened');
-			$('.header').removeClass('nav-opened');
-		},
-		swipeDown:function(event, direction, distance, duration) {
-		 // console.log("You swiped " + direction) 
-		},
-		click:function(event, target) { 
-		},
-		threshold:50,
-		allowPageScroll:"none"
+	function swipeTopNav(){
+		if ($(window).height() > 475) {
+			$(".header, .mobile-top-nav").swipe({
+				swipeUp:function(event, direction, distance, duration) {
+					$('.menu-opener').removeClass('active');
+					$('.mobile-top-nav').removeClass('opened');
+					$('.header').removeClass('nav-opened');
+				},
+				swipeDown:function(event, direction, distance, duration) {
+				 // console.log("You swiped " + direction) 
+				},
+				click:function(event, target) { 
+				},
+				threshold:50,
+				allowPageScroll:"none"
+			});
+		} else{
+			$(".header, .mobile-top-nav").swipe("destroy");
+		}
+	}
+
+	swipeTopNav();
+
+	$(window).resize(function(){
+		swipeTopNav();
 	});
 });
 
