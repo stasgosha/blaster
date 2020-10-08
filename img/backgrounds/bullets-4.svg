@@ -1,54 +1,58 @@
 <svg width="1874" height="761" viewBox="0 0 1874 761" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0)">
 <g style="mix-blend-mode:multiply">
-<rect x="1842.64" y="191" width="14" height="14" transform="rotate(38.0938 1842.64 191)" fill="#C94414"/>
+<g style="mix-blend-mode:multiply">
+<path d="M1853.66 199.637L1842.64 191L1834 202.018L1845.02 210.655L1853.66 199.637Z" fill="#C94414"/>
+</g>
 </g>
 <g style="mix-blend-mode:multiply">
-<rect x="1862.44" y="0.620117" width="14" height="14" transform="rotate(38.0938 1862.44 0.620117)" fill="#C94414"/>
+<g style="mix-blend-mode:multiply">
+<path d="M1873.46 9.25743L1862.44 0.620117L1853.8 11.6381L1864.82 20.2755L1873.46 9.25743Z" fill="#C94414"/>
+</g>
 </g>
 <g style="mix-blend-mode:multiply">
-<rect x="267.792" y="488.63" width="14" height="14" transform="rotate(133.459 267.792 488.63)" fill="#192E72"/>
+<g style="mix-blend-mode:multiply">
+<path d="M258.162 498.792L267.792 488.63L257.63 479L248 489.162L258.162 498.792Z" fill="#192E72"/>
+</g>
 </g>
 <g style="mix-blend-mode:multiply">
-<rect x="633.792" y="174.63" width="14" height="14" transform="rotate(133.459 633.792 174.63)" fill="#192E72"/>
+<g style="mix-blend-mode:multiply">
+<path d="M19.7862 266.376L9.53833 256.838L-8.24928e-05 267.086L10.2478 276.624L19.7862 266.376Z" fill="#0B7DE3"/>
+</g>
 </g>
 <g style="mix-blend-mode:multiply">
-<rect x="9.53833" y="256.838" width="14" height="14" transform="rotate(42.9465 9.53833 256.838)" fill="#0B7DE3"/>
+<g style="mix-blend-mode:multiply">
+<path d="M942.786 444.538L932.538 435L923 445.248L933.248 454.786L942.786 444.538Z" fill="#0B7DE3"/>
+</g>
 </g>
 <g style="mix-blend-mode:multiply">
-<rect x="1294.54" y="279" width="14" height="14" transform="rotate(42.9465 1294.54 279)" fill="#D74814"/>
+<g style="mix-blend-mode:multiply">
+<path d="M1633.66 493.637L1622.64 485L1614 496.018L1625.02 504.655L1633.66 493.637Z" fill="#C94414"/>
+</g>
 </g>
 <g style="mix-blend-mode:multiply">
-<rect x="932.538" y="435" width="14" height="14" transform="rotate(42.9465 932.538 435)" fill="#0B7DE3"/>
-</g>
 <g style="mix-blend-mode:multiply">
-<rect x="687.538" y="425" width="14" height="14" transform="rotate(42.9465 687.538 425)" fill="#D74814"/>
+<path d="M1265.66 699.637L1254.64 691L1246 702.018L1257.02 710.655L1265.66 699.637Z" fill="#C94414"/>
 </g>
+</g>
+<path d="M317 284.665L330.665 287.71L333.71 274.045L320.046 271L317 284.665Z" fill="#D74814"/>
+<path d="M1710.01 269.665L1723.67 272.71L1726.72 259.045L1713.05 256L1710.01 269.665Z" fill="#D74814"/>
+<path d="M52.4216 560.605L63.6055 552.184L55.184 541L44.0001 549.421L52.4216 560.605Z" fill="#D74814"/>
 <g style="mix-blend-mode:multiply">
-<rect x="909.538" y="682" width="14" height="14" transform="rotate(42.9465 909.538 682)" fill="#D74814"/>
-</g>
 <g style="mix-blend-mode:multiply">
-<rect x="1285.54" y="472" width="14" height="14" transform="rotate(42.9465 1285.54 472)" fill="#0B7DE3"/>
+<path d="M18.028 706.105L18.1348 692.105L4.13517 691.999L4.02844 705.998L18.028 706.105Z" fill="#192E72"/>
 </g>
+</g>
+<path d="M1710.78 752.018L1721.8 760.655L1730.44 749.637L1719.42 741L1710.78 752.018Z" fill="#D74814"/>
 <g style="mix-blend-mode:multiply">
-<rect x="944.538" y="254" width="14" height="14" transform="rotate(42.9465 944.538 254)" fill="#D74814"/>
-</g>
 <g style="mix-blend-mode:multiply">
-<rect x="623.637" y="683" width="14" height="14" transform="rotate(38.0938 623.637 683)" fill="#C94414"/>
+<path d="M308.554 746.578L296.811 741.002L291.235 752.745L302.978 758.322L308.554 746.578Z" fill="#192E72"/>
 </g>
-<g style="mix-blend-mode:multiply">
-<rect x="1622.64" y="485" width="14" height="14" transform="rotate(38.0938 1622.64 485)" fill="#C94414"/>
 </g>
-<g style="mix-blend-mode:multiply">
-<rect x="1254.64" y="691" width="14" height="14" transform="rotate(38.0938 1254.64 691)" fill="#C94414"/>
 </g>
-<rect x="330.665" y="287.71" width="14" height="14" transform="rotate(-167.436 330.665 287.71)" fill="#D74814"/>
-<rect x="1723.67" y="272.71" width="14" height="14" transform="rotate(-167.436 1723.67 272.71)" fill="#D74814"/>
-<rect x="63.6055" y="552.184" width="14" height="14" transform="rotate(143.02 63.6055 552.184)" fill="#D74814"/>
-<g style="mix-blend-mode:multiply">
-<rect x="18.135" y="692.106" width="14" height="14" transform="rotate(90.4368 18.135 692.106)" fill="#192E72"/>
-</g>
-<rect x="1721.8" y="760.655" width="14" height="14" transform="rotate(-141.906 1721.8 760.655)" fill="#D74814"/>
-<g style="mix-blend-mode:multiply">
-<rect x="296.811" y="741.002" width="13" height="13" transform="rotate(25.4003 296.811 741.002)" fill="#192E72"/>
-</g>
+<defs>
+<clipPath id="clip0">
+<rect width="1874" height="761" fill="white"/>
+</clipPath>
+</defs>
 </svg>
